@@ -23,6 +23,72 @@
 
     <h2>Contacto</h2>
     <a href="mailto:elias.bianchi@utec.edu.uy">Enviar Correo</a>
+
+    <form action="/" method="GET">
+        <div class="inputs">
+            <h2>Inputs</h2>
+            <p>texto</p>
+            <input type="text" name="nombre">
+            <p>contraseña</p>
+            <input type="password">
+            <p>correo</p>
+            <input type="email">
+            <p>fecha</p>
+            <input type="date">
+            <p>número</p>
+            <input type="number">
+        </div>
+
+        <div class="radio">
+            <h2>Genero</h2>
+            <label>
+                <input type="radio" name="genero" value="masculino">
+                Masculino
+            </label>
+
+            <label>
+                <input type="radio" name="genero" value="femenino">
+                Femenino
+            </label>
+        </div>
+
+        <div class="checkbox">
+            <h2>Hobbies</h2>
+            <label>
+                <input type="checkbox" name="hobby" value="programar">
+                Programar
+            </label>
+            <label>
+                <input type="checkbox" name="hobby" value="Dormir">
+                Dormir
+            </label>
+            <label>
+                <input type="checkbox" name="hobby" value="caminar">
+                Caminar
+            </label>
+        </div>
+
+        <div class="select">
+            <h2>Select box</h2>
+            <select name="nacionalidad" id="">
+                <option value="uy">Uruguay</option>
+                <option value="ar">Argentina</option>
+            </select>
+        </div>
+
+        <!-- Esto es un comentario -->
+
+        <div class="textarea">
+            <h2>TextArea</h2>
+            <textarea name="textarea" id=""></textarea>
+        </div>
+
+        <div class="botones">
+            <h2>Botones</h2>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </div>
+    </form>
 </body>
 
 </html>
