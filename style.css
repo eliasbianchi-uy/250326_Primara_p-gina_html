@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+nav {
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.container {
+    margin-inline: auto;
+    width: fit-content;
+}
+
+.inputs label {
+    display: block;
+}

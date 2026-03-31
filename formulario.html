@@ -4,14 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
 </head>
 
 <body>
 
-    <form action="/resultado" method="GET">
+    <header>
+        <h1>Formulario</h1>
+    </header>
+    <nav>
+        <a href="/">Inicio</a>
+        <a href="/formulario.html">Formulario</a>
+    </nav>
 
-    </form>
+    <main>
+        <form action="formulario.html" method="GET">
+            <section id="login">
+                <label>
+                    nombre
+                    <input type="text" name="nombre">
+                </label>
+
+                <label>
+                    Correo
+                    <input type="email" name="correo">
+                </label>
+
+                <label>
+                    Contaseña
+                    <input type="password" name="contraseña">
+                </label>
+
+            </section>
+
+            <section id="genero">
+                <h2>Genero</h2>
+                <label>
+                    Hombre
+                    <input type="radio" name="genero" id="male" value="male">
+                </label>
+
+                <label>
+                    Mujer
+                    <input type="radio" name="genero" id="female" value="female">
+                </label>
+            </section>
+
+            <section id="hobbies">
+                <h2>Hobbies</h2>
+                <label>
+                    Programar
+                    <input type="checkbox" name="hobbies" id="" value="programar">
+                </label>
+                <label>
+                    Dormir
+                    <input type="checkbox" name="hobbies" id="" value="dormir">
+                </label>
+            </section>
+
+            <section id="botones">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+            </section>
+        </form>
+    </main>
 </body>
 
 </html>
